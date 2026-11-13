@@ -68,3 +68,55 @@ header {
 .menu a:hover {
     color: #00e6ad;
 }
+
+.portada {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.portada-contenido {
+    width: 80%;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.portada-contenido h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.portada-contenido p {
+    width: 65%;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #e4eaf5;
+}
+
+.portada-boton {
+    margin-top: 30px;
+}
+
+.portada-boton a {
+    display: inline-block;
+    background-color: #00e6ad;
+    color: #073b43;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.portada-boton a:hover {
+    background-color: #00c995;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
