@@ -455,3 +455,110 @@ header {
     margin: 0;
     color: #101d40;
 }
+
+.contacto {
+    width: 100%;
+    background: #101d40;
+    padding: 5% 8%;
+}
+
+.contacto-contenedor {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: start;
+    gap: 5%;
+}
+
+.contacto-info {
+    display: grid;
+    align-content: start;
+    justify-items: start;
+    gap: 5%;
+}
+
+.contacto-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contacto-logo img {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+
+.contacto-info p {
+    color: #c5ccda;
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.contacto-formulario {
+    display: grid;
+    gap: 25px;
+}
+
+.contacto-formulario h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin: 0;
+}
+
+.contacto-formulario form {
+    display: grid;
+    gap: 20px;
+}
+
+.formulario-campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.formulario-campos input,
+.contacto-formulario textarea {
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #27d7c5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+}
+
+.formulario-campos input::placeholder,
+.contacto-formulario textarea::placeholder {
+    color: #c5ccda;
+}
+
+.formulario-campos input:focus,
+.contacto-formulario textarea:focus {
+    border-color: #ffffff;
+}
+
+.contacto-formulario textarea {
+    height: 130px;
+    resize: none;
+}
+
+.contacto-formulario button {
+    width: 35%;
+    padding: 14px;
+    background: #27d7c5;
+    border: none;
+    border-radius: 5px;
+    color: #101d40;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contacto-formulario button:hover {
+    background: #ffffff;
+}
