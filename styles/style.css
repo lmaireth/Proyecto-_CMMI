@@ -179,3 +179,128 @@ header {
     line-height: 1.7;
     color: #404349;
 }
+
+.look-inside {
+    width: 82%;
+    margin: 0 auto;
+    padding: 8% 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 4%;
+}
+
+.look-contenido {
+    width: 100%;
+}
+
+.look-contenido h2 {
+    font-size: 34px;
+    color: #172544;
+    margin-bottom: 5%;
+}
+
+.look-contenido p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #667085;
+    margin-bottom: 6%;
+}
+
+.look-boton a {
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: #172544;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.look-boton a:hover {
+    background-color: #fff;
+    color:#172544;
+}
+
+.look-imagen {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.look-imagen img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.safe-reliable {
+    width: 82%;
+    margin: 0 auto;
+    padding: 8% 0;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    align-items: center;
+    gap: 4%;
+    position: relative;
+}
+
+.safe-imagen {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.safe-imagen img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.safe-contenido {
+    width: 100%;
+}
+
+.safe-contenido h2 {
+    font-size: 34px;
+    color: #172544;
+    margin-bottom: 5%;
+}
+
+.safe-contenido p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #172544;
+    margin-bottom: 6%;
+}
+
+.safe-boton a {
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: #172544;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.safe-boton a:hover {
+    background-color: #fff;
+    color:#172544;
+}
+
+.secciones-verdes {
+    background: linear-gradient(
+        168deg,
+        #ffffff 0%,
+        #ffffff 35%,
+        #00e6ad 35.2%,
+        #00e6ad 100%
+    );
+}
