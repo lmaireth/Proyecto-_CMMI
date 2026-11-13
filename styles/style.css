@@ -562,3 +562,46 @@ header {
 .contacto-formulario button:hover {
     background: #ffffff;
 }
+footer {
+    width: 100%;
+    padding: 25px 8%;
+    background: #101d40;
+    border-top: 1px solid #27d7c5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: #c5ccda;
+    font-size: 15px;
+    margin: 0;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.redes-sociales a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #27d7c5;
+    border-radius: 50%;
+    color: #27d7c5;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.redes-sociales a:hover {
+    background: #27d7c5;
+    color: #101d40;
+}
