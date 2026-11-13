@@ -4,3 +4,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #172544;
+    background-color: #ffffff;
+}
+
+header {
+    width: 100%;
+    min-height: 570px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-image:
+        linear-gradient(
+            rgba(13, 25, 52, 0.20),
+            rgba(13, 25, 52, 0.20)
+        ),
+        url("../assets/images/banner-bk.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 82%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 35px;
+    list-style: none;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #00e6ad;
+}
