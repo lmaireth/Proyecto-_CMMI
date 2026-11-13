@@ -304,3 +304,113 @@ header {
         #00e6ad 100%
     );
 }
+
+.pricing {
+    width: 100%;
+    padding: 8% 9%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.pricing h2 {
+    font-size: 34px;
+    color: #172544;
+    margin-bottom: 5%;
+}
+
+.pricing-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 3%;
+}
+
+.pricing-item {
+    width: 33%;
+    padding: 4% 3%;
+    background-color: #ffffff;
+    border: 2px solid #e5eaf0;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(23, 37, 68, 0.10);
+    transition: border-color 0.3s ease;
+}
+
+.pricing-item h3 {
+    color: #172544;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.precio {
+    margin: 25px auto;
+}
+
+.precio strong {
+    font-size: 42px;
+    color: #00c995;
+}
+
+.pricing-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.pricing-item li {
+    margin-bottom: 18px;
+    color: #667085;
+    font-size: 15px;
+}
+
+.pricing-item li i {
+    color: #00c995;
+    margin-right: 10px;
+}
+
+.pricing-item li i.negro {
+    color: #172544;
+}
+
+.pricing-item a {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #172544;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.pricing-item a:hover {
+    background-color: #00e6ad;
+    color: #172544;
+}
+
+.pricing-item.premium {
+    background-color: #172544;
+    border-color: #172544;
+}
+
+.pricing-item.premium h3,
+.pricing-item.premium li {
+    color: #ffffff;
+}
+
+.pricing-item.premium .precio strong {
+    color: #00e6ad;
+}
+
+.pricing-item.premium li i {
+    color: #00e6ad;
+}
+
+.pricing-item.premium a {
+    background-color: #00e6ad;
+    color: #172544;
+}
+
+.pricing-item.premium a:hover {
+    background-color: #ffffff;
+}
