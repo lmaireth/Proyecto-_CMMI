@@ -414,3 +414,44 @@ header {
 .pricing-item.premium a:hover {
     background-color: #ffffff;
 }
+
+.partners {
+    width: 100%;
+    background: #f5f6f8;
+    padding: 30px 5%;
+}
+
+.partners-contenedor {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+
+.partner {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    min-height: 80px;
+    gap: 8px;
+    border-right: 2px solid #aeb8ca;
+    color: #101d40;
+}
+
+.partner:last-child {
+    border-right: none;
+}
+
+.partner i {
+    font-size: 32px;
+    color: #101d40;
+}
+
+.partner p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+    color: #101d40;
+}
