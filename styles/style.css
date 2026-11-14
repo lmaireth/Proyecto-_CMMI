@@ -695,8 +695,152 @@ footer p {
         padding: 2% 6%;
     }
 }
-@media (max-width:920px){
-    
+@media (max-width: 920px) {
+
+    .navbar {
+        width: 90%;
+    }
+
+    .logo img {
+        width: 25%;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .portada-contenido {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .portada-contenido h1 {
+        font-size: 36px;
+    }
+
+    .portada-contenido p {
+        width: 85%;
+        font-size: 15px;
+    }
+
+    .proteccion {
+        width: 90%;
+    }
+
+    .proteccion h2 {
+        font-size: 30px;
+    }
+
+    .proteccion > p {
+        width: 85%;
+        font-size: 15px;
+    }
+
+    .proteccion-contenedor {
+        gap: 3%;
+    }
+
+    .proteccion-item {
+        width: 33%;
+    }
+
+    .proteccion-item h3 {
+        font-size: 18px;
+    }
+
+    .look-inside,
+    .safe-reliable {
+        width: 90%;
+        gap: 3%;
+    }
+
+    .look-contenido h2,
+    .safe-contenido h2 {
+        font-size: 27px;
+    }
+
+    .look-contenido p,
+    .safe-contenido p {
+        font-size: 15px;
+    }
+
+    .pricing {
+        padding: 8% 5%;
+    }
+
+    .pricing h2 {
+        font-size: 30px;
+    }
+
+    .pricing-contenedor {
+        gap: 2%;
+    }
+
+    .pricing-item {
+        padding: 5% 2%;
+    }
+
+    .pricing-item h3 {
+        font-size: 17px;
+    }
+
+    .precio strong {
+        font-size: 35px;
+    }
+
+    .pricing-item li {
+        font-size: 13px;
+    }
+
+    .pricing-item a {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .partners {
+        padding: 4%;
+    }
+
+    .partner i {
+        font-size: 27px;
+    }
+
+    .partner p {
+        font-size: 14px;
+    }
+
+    .contacto {
+        padding: 6%;
+    }
+
+    .contacto-contenedor {
+        grid-template-columns: 1fr 1.3fr;
+        gap: 4%;
+    }
+
+    .contacto-info p {
+        font-size: 15px;
+    }
+
+    .contacto-formulario h2 {
+        font-size: 24px;
+    }
+
+    .formulario-campos {
+        gap: 12px;
+    }
+
+    footer {
+        padding: 3% 6%;
+    }
+
+    .redes-sociales {
+        gap: 10px;
+    }
 }
 
 @media (max-width:768px){
