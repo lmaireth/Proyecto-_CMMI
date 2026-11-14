@@ -605,3 +605,104 @@ footer p {
     background: #27d7c5;
     color: #101d40;
 }
+
+@media (max-width: 1279px) {
+
+    .navbar {
+        width: 90%;
+        gap: 3%;
+    }
+
+    .menu {
+        gap: 22px;
+    }
+
+    .portada {
+        width: 90%;
+    }
+
+    .portada-contenido {
+        width: 90%;
+        padding: 4%;
+    }
+
+    .portada-contenido h1 {
+        font-size: 42px;
+    }
+
+    .portada-contenido p {
+        width: 80%;
+    }
+
+    .proteccion {
+        width: 88%;
+    }
+
+    .proteccion > p {
+        width: 75%;
+    }
+
+    .proteccion-contenedor {
+        gap: 3%;
+    }
+
+    .look-inside {
+        width: 88%;
+        grid-template-columns: 1fr 1fr;
+        gap: 3%;
+    }
+
+    .look-contenido h2 {
+        font-size: 30px;
+    }
+
+    .safe-reliable {
+        width: 88%;
+        grid-template-columns: 1fr 1fr;
+        gap: 3%;
+    }
+
+    .safe-contenido h2 {
+        font-size: 30px;
+    }
+
+    .pricing {
+        padding: 8% 6%;
+    }
+
+    .pricing-contenedor {
+        gap: 2%;
+    }
+
+    .pricing-item {
+        padding: 4% 2%;
+    }
+
+    .partners {
+        padding: 3% 4%;
+    }
+
+    .contacto {
+        padding: 5% 6%;
+    }
+
+    .contacto-contenedor {
+        grid-template-columns: 1fr 1.4fr;
+        gap: 4%;
+    }
+
+    footer {
+        padding: 2% 6%;
+    }
+}
+@media (max-width:920px){
+    
+}
+
+@media (max-width:768px){
+    
+}
+
+@media (max-width:480px){
+    
+}
