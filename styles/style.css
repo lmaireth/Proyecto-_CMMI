@@ -990,6 +990,217 @@ footer p {
     }
 }
 
-@media (max-width:480px){
-    
+@media (max-width: 480px) {
+
+    header {
+        min-height: 500px;
+    }
+
+    .navbar {
+        width: 90%;
+        padding-top: 20px;
+        gap: 15px;
+    }
+
+    .logo img {
+        width: 25%;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    .portada {
+        width: 90%;
+    }
+
+    .portada-contenido {
+        width: 100%;
+        padding: 3%;
+    }
+
+    .portada-contenido h1 {
+        font-size: 25px;
+    }
+
+    .portada-contenido p {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .portada-boton a {
+        font-size: 11px;
+        padding: 10px 22px;
+    }
+
+    .proteccion {
+        width: 90%;
+        padding: 10% 0;
+    }
+
+    .proteccion h2 {
+        font-size: 22px;
+    }
+
+    .proteccion > p {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .proteccion-contenedor {
+        gap: 25px 3%;
+    }
+
+    .proteccion-item {
+        width: 45%;
+    }
+
+    .proteccion-imagen {
+        width: 40%;
+    }
+
+    .proteccion-item h3 {
+        font-size: 15px;
+    }
+
+    .proteccion-item p {
+        font-size: 11px;
+    }
+
+    .look-inside,
+    .safe-reliable {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        gap: 3%;
+        padding: 10% 0;
+    }
+
+    .look-contenido h2,
+    .safe-contenido h2 {
+        font-size: 21px;
+    }
+
+    .look-contenido p,
+    .safe-contenido p {
+        font-size: 12px;
+    }
+
+    .look-boton a,
+    .safe-boton a {
+        font-size: 11px;
+        padding: 10px 18px;
+    }
+
+    .look-imagen,
+    .safe-imagen {
+        width: 85%;
+    }
+
+    .pricing {
+        padding: 10% 5%;
+    }
+
+    .pricing h2 {
+        font-size: 22px;
+    }
+
+    .pricing-contenedor {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .pricing-item {
+        width: 65%;
+        padding: 6% 4%;
+    }
+
+    .pricing-item h3 {
+        font-size: 15px;
+    }
+
+    .precio strong {
+        font-size: 32px;
+    }
+
+    .pricing-item li {
+        font-size: 11px;
+    }
+
+    .pricing-item a {
+        font-size: 11px;
+        padding: 10px 20px;
+    }
+
+    .partner i {
+        font-size: 23px;
+    }
+
+    .partner p {
+        font-size: 12px;
+    }
+
+    .contacto {
+        padding: 8% 6%;
+    }
+
+    .contacto-contenedor {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .contacto-logo img {
+        width: 20%;
+    }
+
+    .contacto-info p {
+        font-size: 12px;
+    }
+
+    .contacto-formulario h2 {
+        font-size: 21px;
+    }
+
+    .formulario-campos {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .formulario-campos input,
+    .contacto-formulario textarea {
+        font-size: 12px;
+        padding: 12px;
+    }
+
+    .contacto-formulario textarea {
+        height: 100px;
+    }
+
+    .contacto-formulario button {
+        width: 40%;
+        font-size: 12px;
+        padding: 11px;
+    }
+
+    footer {
+        padding: 5% 6%;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+
+    .redes-sociales {
+        gap: 10px;
+    }
+
+    .redes-sociales a {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
 }
