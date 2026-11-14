@@ -695,6 +695,7 @@ footer p {
         padding: 2% 6%;
     }
 }
+
 @media (max-width: 920px) {
 
     .navbar {
@@ -843,8 +844,150 @@ footer p {
     }
 }
 
-@media (max-width:768px){
-    
+@media (max-width: 768px) {
+
+    header {
+        min-height: 500px;
+    }
+
+    .navbar {
+        width: 90%;
+        padding-top: 25px;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+
+    .menu {
+        gap: 12px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .portada {
+        width: 90%;
+    }
+
+    .portada-contenido {
+        width: 100%;
+        padding: 3%;
+    }
+
+    .portada-contenido h1 {
+        font-size: 32px;
+    }
+
+    .portada-contenido p {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .proteccion {
+        width: 90%;
+        padding: 10% 0;
+    }
+
+    .proteccion h2 {
+        font-size: 27px;
+    }
+
+    .proteccion > p {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .proteccion-contenedor {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px 4%;
+    }
+
+    .proteccion-item {
+        width: 45%;
+    }
+
+    .proteccion-imagen {
+        width: 45%;
+    }
+
+    .look-inside,
+    .safe-reliable {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        gap: 4%;
+        padding: 10% 0;
+    }
+
+    .look-contenido h2,
+    .safe-contenido h2 {
+        font-size: 24px;
+    }
+
+    .look-contenido p,
+    .safe-contenido p {
+        font-size: 14px;
+    }
+
+    .look-imagen,
+    .safe-imagen {
+        width: 100%;
+    }
+
+    .pricing {
+        padding: 10% 5%;
+    }
+
+    .pricing h2 {
+        font-size: 27px;
+    }
+
+    .pricing-contenedor {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .pricing-item {
+        width: 65%;
+        padding: 7% 5%;
+    }
+
+    .pricing-item h3 {
+        font-size: 17px;
+    }
+
+    .contacto {
+        padding: 8% 6%;
+    }
+
+    .contacto-contenedor {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contacto-logo img {
+        width: 20%;
+    }
+
+    .contacto-formulario button {
+        width: 30%;
+    }
+
+    footer {
+        padding: 4% 6%;
+    }
+
+    .redes-sociales {
+        gap: 8px;
+    }
+
+    .redes-sociales a {
+        width: 35px;
+        height: 35px;
+    }
 }
 
 @media (max-width:480px){
